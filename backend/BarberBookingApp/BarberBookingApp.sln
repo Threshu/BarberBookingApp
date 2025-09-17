@@ -1,9 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36429.23 d17.14
+VisualStudioVersion = 17.14.36429.23
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarberBookingApp.API", "BarberBookingApp.API\BarberBookingApp.API.csproj", "{FAE7EE12-6646-4C29-80E2-96131C83C1E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarberBookingApp.Domain", "BarberBookingApp.Domain\BarberBookingApp.Domain.csproj", "{F455CF65-6859-4BE6-BF6C-411F2057F380}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarberBookingApp.Application", "BarberBookingApp.Application\BarberBookingApp.Application.csproj", "{BCABC440-79B8-4F46-A05A-0BB5952EA888}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarberBookingApp.Infrastructure", "BarberBookingApp.Infrastructure\BarberBookingApp.Infrastructure.csproj", "{6A8C9D5D-4F88-4FB0-A5C9-5A8BB3E97F7A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{FAE7EE12-6646-4C29-80E2-96131C83C1E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FAE7EE12-6646-4C29-80E2-96131C83C1E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FAE7EE12-6646-4C29-80E2-96131C83C1E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F455CF65-6859-4BE6-BF6C-411F2057F380}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F455CF65-6859-4BE6-BF6C-411F2057F380}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F455CF65-6859-4BE6-BF6C-411F2057F380}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F455CF65-6859-4BE6-BF6C-411F2057F380}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCABC440-79B8-4F46-A05A-0BB5952EA888}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCABC440-79B8-4F46-A05A-0BB5952EA888}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCABC440-79B8-4F46-A05A-0BB5952EA888}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCABC440-79B8-4F46-A05A-0BB5952EA888}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A8C9D5D-4F88-4FB0-A5C9-5A8BB3E97F7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A8C9D5D-4F88-4FB0-A5C9-5A8BB3E97F7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A8C9D5D-4F88-4FB0-A5C9-5A8BB3E97F7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A8C9D5D-4F88-4FB0-A5C9-5A8BB3E97F7A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
