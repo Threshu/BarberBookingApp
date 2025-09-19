@@ -26,17 +26,17 @@ namespace BarberBookingApp.Infrastructure.Persistence
                 .HasOne(a => a.Customer)
                 .WithMany(c => c.Appointments)
                 .HasForeignKey(a => a.CustomerId)
-                .OnDelete(DeleteBehavior.SetNull);
+                .OnDelete(DeleteBehavior.Restrict);
             modelBuilder.Entity<Appointment>()
                 .HasOne(a => a.Barber)
                 .WithMany(b => b.Appointments)
                 .HasForeignKey(a => a.BarberId)
-                .OnDelete(DeleteBehavior.SetNull);
+                .OnDelete(DeleteBehavior.Restrict);
             modelBuilder.Entity<Appointment>()
                 .HasOne(a => a.Service)
                 .WithMany(s => s.Appointments)
                 .HasForeignKey(a => a.ServiceId)
-                .OnDelete(DeleteBehavior.SetNull);
+                .OnDelete(DeleteBehavior.Restrict);
 
             modelBuilder.Entity<Barber>()
                 .HasOne(b => b.User)
