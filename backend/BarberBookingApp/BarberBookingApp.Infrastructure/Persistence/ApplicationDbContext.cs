@@ -67,6 +67,19 @@ namespace BarberBookingApp.Infrastructure.Persistence
                 .WithMany(b => b.Schedules)
                 .HasForeignKey(s => s.BarberId)
                 .OnDelete(DeleteBehavior.Cascade);
+
+            // Konfiguracja precyzji wartości pieniężnych (2 miejsca po przecinku)
+            modelBuilder.Entity<Appointment>()
+                .Property(a => a.Price)
+                .HasPrecision(18, 2);
+            
+            modelBuilder.Entity<BarberService>()
+                .Property(bs => bs.Price)
+                .HasPrecision(18, 2);
+            
+            modelBuilder.Entity<Service>()
+                .Property(s => s.BasePrice)
+                .HasPrecision(18, 2);
         }
     }
 }
