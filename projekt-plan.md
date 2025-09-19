@@ -124,7 +124,7 @@ którego głównym celem jest nauka technologii .NET i Angular.
 ### Etap 2: Struktura projektu i konfiguracja
 
 - [x] Utworzenie solucji .NET i projektów
-- [ ] Konfiguracja Entity Framework Core
+- [x] Konfiguracja Entity Framework Core
 - [x] Implementacja bazowych klas domenowych
 - [x] Utworzenie projektu Angular
 

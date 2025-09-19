@@ -9,12 +9,12 @@
         public int Duration { get; set; } //in minutes
         public string ImageUrl { get; set; } = string.Empty;
 
-        public ICollection<Appointment> Appointmens { get; set; }
+        public ICollection<Appointment> Appointments { get; set; }
         public ICollection<BarberService> BarberServices { get; set; }
 
         public Service()
         {
-            Appointmens = new List<Appointment>();
+            Appointments = new List<Appointment>();
             BarberServices = new List<BarberService>();
         }
     }
