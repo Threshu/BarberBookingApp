@@ -23,4 +23,8 @@
     <ProjectReference Include="..\BarberBookingApp.Infrastructure\BarberBookingApp.Infrastructure.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+  </ItemGroup>
+
 </Project>
